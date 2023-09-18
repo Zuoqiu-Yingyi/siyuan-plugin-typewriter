@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.1](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter/compare/v0.1.0...v0.1.1) (2023-09-18)
+
+
+### Miscellaneous
+
+* **typewriter:** release v0.1.1 ([08fa66b](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter/commit/08fa66b979d49a30b3a949dfd8b4f41303f5871e))
+
+
+### Bug Fixes
+
+* **typewriter:** 修复关闭打字机模式后显示焦点功能失效问题 | Fix the issue that the function of displaying focus is invalid after closing the typewriter mode. ([f4163e3](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter/commit/f4163e3f157f50630e865f6e5f285a9451de7e6e))
+
+
+### Performance Improvements
+
+* **typewriter:** 优化代码块跟随行滚动功能 | Optimize the function of code block following the line scrolling. ([612afa1](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter/commit/612afa179b30fa5eb908b64b5194c1615da0bb1b))
+
 ## 0.1.0 (2023-09-16)
 
 
