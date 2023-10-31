@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter/compare/v0.1.1...v0.1.2) (2023-10-31)
+
+
+### Features
+
+* **typewriter:** 适配属性视图 | Adapt to the attribute view. ([09c431d](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter/commit/09c431d820eaa2163dc4591a33ec8392640cea85))
+
 ## [0.1.1](https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter/compare/v0.1.0...v0.1.1) (2023-09-18)
 
 
