@@ -2,8 +2,8 @@
     "name": "typewriter",
     "author": "Zuoqiu Yingyi",
     "url": "https://github.com/Zuoqiu-Yingyi/siyuan-plugin-typewriter",
-    "version": "0.1.3",
-    "minAppVersion": "2.10.12",
+    "version": "0.1.4",
+    "minAppVersion": "3.7.0",
     "keywords": [
         "打字机",
         "打字機",
@@ -38,9 +38,9 @@
     "funding": {
         "openCollective": "",
         "patreon": "",
-        "github": "",
+        "github": "https://github.com/Zuoqiu-Yingyi",
         "custom": [
-            "https://afdian.net/a/zuoqiu",
+            "https://afdian.com/a/zuoqiu",
             "https://ko-fi.com/zuoqiu"
         ]
     }
