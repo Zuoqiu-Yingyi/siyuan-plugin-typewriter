@@ -178,6 +178,7 @@ export default class TypewriterPlugin extends siyuan.Plugin {
         enable: boolean,
     ): void {
         const listener = [
+            // "selectionchange", // 滑选时高频触发
             "keyup",
             this.editorEventListener,
             {
