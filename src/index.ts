@@ -290,7 +290,7 @@ export default class TypewriterPlugin extends siyuan.Plugin {
      */
     protected readonly toggleEnableState = () => {
         this.config.typewriter.enable = !this.config.typewriter.enable;
-        this.activate();
+        this.updateConfig();
     };
 
     /* 编辑器加载事件 */
