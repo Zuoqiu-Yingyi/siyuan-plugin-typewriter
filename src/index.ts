@@ -328,10 +328,9 @@ export default class TypewriterPlugin extends siyuan.Plugin {
     protected readonly editorEventListener = async (_e: Event) => {
         // this.logger.debug(e);
         const block = getCurrentBlock(); // 当前光标所在块
+        const doc = getCurrentProtyleWysiwyg(); // 当前广播所在文档块
 
         if (this.config.focus.enable) { // 已开启焦点显示功能
-            const doc = getCurrentProtyleWysiwyg(); // 当前广播所在文档块
-
             if (block && doc) {
                 let element: HTMLElement = block;
                 switch (block.dataset.type) {
@@ -397,7 +396,7 @@ export default class TypewriterPlugin extends siyuan.Plugin {
         }
 
         if (this.config.typewriter.enable) { // 已开启打字机模式
-            if (block) {
+            if (block && doc) {
                 let element: HTMLElement | null = block;
 
                 switch (block.dataset.type) {
