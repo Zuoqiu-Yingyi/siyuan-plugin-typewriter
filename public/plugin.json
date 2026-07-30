@@ -22,18 +22,18 @@
     ],
     "displayName": {
         "default": "Typewriter Mode",
-        "zh_CN": "打字机模式",
-        "zh_CHT": "打字機模式"
+        "zh-CN": "打字机模式",
+        "zh-TW": "打字機模式"
     },
     "description": {
         "default": "Keeps the focused block in the middle of edit area.",
-        "zh_CN": "将焦点所在块保持在编辑区中间。",
-        "zh_CHT": "將焦點所在塊保持在編輯區中間。"
+        "zh-CN": "将焦点所在块保持在编辑区中间。",
+        "zh-TW": "將焦點所在塊保持在編輯區中間。"
     },
     "readme": {
         "default": "README.md",
-        "zh_CN": "README_zh_CN.md",
-        "zh_CHT": "README_zh_CN.md"
+        "zh-CN": "README.zh-CN.md",
+        "zh-TW": "README.zh-CN.md"
     },
     "funding": {
         "openCollective": "",
