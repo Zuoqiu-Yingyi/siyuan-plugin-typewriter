@@ -81,7 +81,7 @@ export default class TypewriterPlugin extends siyuan.Plugin {
         this.updateScrollFunction();
     }
 
-    public override onload(): void {
+    public override async onload(): Promise<void> {
         // this.logger.debug(this);
 
         /* 注册图标 */
@@ -100,15 +100,16 @@ export default class TypewriterPlugin extends siyuan.Plugin {
             callback: this.toggleEnableState,
         });
 
-        this.loadData(TypewriterPlugin.GLOBAL_CONFIG_NAME)
-            .then((config) => {
-                this.config = mergeIgnoreArray(DEFAULT_CONFIG, config || {}) as IConfig;
-                this.updateScrollFunction();
-            })
-            .catch((error) => this.logger.error(error))
-            .finally(() => {
-                this.activate();
-            });
+        try {
+            this.config = mergeIgnoreArray(DEFAULT_CONFIG, await this.loadData(TypewriterPlugin.GLOBAL_CONFIG_NAME) || {}) as IConfig;
+            this.updateScrollFunction();
+        }
+        catch (error) {
+            this.logger.error(error);
+        }
+        finally {
+            this.activate();
+        }
     }
 
     public override onLayoutReady(): void {
