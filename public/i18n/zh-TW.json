@@ -4,8 +4,8 @@
             "command": {
                 "text": "開啟/關閉打字機模式"
             },
-            "disabled": "打字機模式 🚫",
-            "enabled": "打字機模式 ✅",
+            "disabled": "打字機模式 🔴",
+            "enabled": "打字機模式 🟢",
             "title": "打字機模式"
         }
     },

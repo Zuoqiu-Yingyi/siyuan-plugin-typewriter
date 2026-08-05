@@ -4,8 +4,8 @@
             "command": {
                 "text": "Toggle Typewriter Mode"
             },
-            "disabled": "Typewriter Mode 🚫",
-            "enabled": "Typewriter Mode ✅",
+            "disabled": "Typewriter Mode 🔴",
+            "enabled": "Typewriter Mode 🟢",
             "title": "Typewriter Mode"
         }
     },
