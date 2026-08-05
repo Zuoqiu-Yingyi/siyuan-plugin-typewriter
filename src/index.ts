@@ -38,7 +38,7 @@ import constants from "./constants";
 
 import Settings from "./components/Settings.svelte";
 
-import type { IProtyle } from "siyuan/types/protyle";
+import type { IProtyle } from "siyuan";
 
 import type {
     IClickEditorContentEvent,
